@@ -19,6 +19,7 @@
 		C572F2C61AA82A94000C7592 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C572F2AE1AA82A94000C7592 /* UIKit.framework */; };
 		C572F2CE1AA82A94000C7592 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C572F2CC1AA82A94000C7592 /* InfoPlist.strings */; };
 		C572F2D01AA82A94000C7592 /* UIAlertController__UIALertView_UIActionSheetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C572F2CF1AA82A94000C7592 /* UIAlertController__UIALertView_UIActionSheetTests.m */; };
+		C5790E511AA82AFC00D943DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5790E501AA82AFC00D943DA /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		C572F2CB1AA82A94000C7592 /* UIAlertController代替UIALertView和UIActionSheetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIAlertController代替UIALertView和UIActionSheetTests-Info.plist"; sourceTree = "<group>"; };
 		C572F2CD1AA82A94000C7592 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C572F2CF1AA82A94000C7592 /* UIAlertController__UIALertView_UIActionSheetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIAlertController__UIALertView_UIActionSheetTests.m; sourceTree = "<group>"; };
+		C5790E4F1AA82AFC00D943DA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C5790E501AA82AFC00D943DA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 		C572F29E1AA82A94000C7592 = {
 			isa = PBXGroup;
 			children = (
+				C5790E4F1AA82AFC00D943DA /* ViewController.h */,
+				C5790E501AA82AFC00D943DA /* ViewController.m */,
 				C572F2B01AA82A94000C7592 /* UIAlertController代替UIALertView和UIActionSheet */,
 				C572F2C91AA82A94000C7592 /* UIAlertController代替UIALertView和UIActionSheetTests */,
 				C572F2A91AA82A94000C7592 /* Frameworks */,
@@ -239,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5790E511AA82AFC00D943DA /* ViewController.m in Sources */,
 				C572F2BB1AA82A94000C7592 /* AppDelegate.m in Sources */,
 				C572F2B71AA82A94000C7592 /* main.m in Sources */,
 			);
@@ -437,6 +443,7 @@
 				C572F2D51AA82A94000C7592 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C572F2D61AA82A94000C7592 /* Build configuration list for PBXNativeTarget "UIAlertController代替UIALertView和UIActionSheetTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +452,7 @@
 				C572F2D81AA82A94000C7592 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
